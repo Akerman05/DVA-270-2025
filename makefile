@@ -48,6 +48,7 @@ SRC_FILES        += grupp14.c
 SRC_FILES        += grupp15.c
 SRC_FILES        += grupp16.c
 SRC_FILES        += grupp17.c
+SRC_FILES		 += uarte_functions17.c
 SRC_FILES        += grupp18.c
 SRC_FILES        += grupp19.c
 SRC_FILES        += grupp20.c
