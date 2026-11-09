@@ -34,8 +34,8 @@ void insertionSort(int arr[]);
 void swapDoubleList(struct node *node1, struct node *node2);
 
 #endif*/
-#ifndef CUSTOM_UARTE_H
-#define CUSTOM_UARTE_H
+#ifndef GRUPPX_H
+#define GRUPPX_H
 
 #include <nrfx.h>
 #include <nrf5340_application.h>
@@ -49,7 +49,7 @@ void swapDoubleList(struct node *node1, struct node *node2);
 #include <stdlib.h>
 #include <stdint.h>
 
-// Forward declaration — full definition is in uarte_functions.c.
+// Forward declaration â€” full definition is in uarte_functions.c.
 // Any file that only uses pointers to struct node does not need the full definition.
 struct node;
 extern nrfx_uarte_t instance;
@@ -79,13 +79,13 @@ void delay(int time);
 // Utility
 void swap(int* a, int* b);
 
-// Sorting — arrays
+// Sorting â€” arrays
 void bubbleSort(int arr[], int n);
 void quickSort(int arr[], int low, int high);
 void mergeSort(int arr[], int low, int high);
 void insertionSort(int arr[], int n);
 
-// Sorting — doubly linked list
+// Sorting â€” doubly linked list
 void bubbleSortList(struct node** headptr);
 
 // Linked list utilities
