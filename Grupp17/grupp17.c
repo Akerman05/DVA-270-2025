@@ -734,7 +734,7 @@ void start_game(void)
 
 /* ─── Main ─── */
 
-int main(void) {
+void start_game_grupp17(void) {
 	init_uarte();
 
 	IRQn_Type irq = NRFX_IRQ_NUMBER_GET(NRF_UARTE_INST_GET(0));
